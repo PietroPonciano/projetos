@@ -1,0 +1,22 @@
+Algoritmo "duracao"
+
+Var
+
+   hora, minuto, segundo, resto, a : inteiro
+   
+
+
+
+
+Inicio
+      escreval("Digite o tempo em segundos:")
+      leia(a)
+      hora <- a \ 3600
+      resto <- a % 3600
+
+      minuto <- resto \  60
+      segundo <- resto % 60
+
+      escreval(hora,":", minuto,":", segundo)
+      
+Fimalgoritmo

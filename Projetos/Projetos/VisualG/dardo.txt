@@ -1,0 +1,25 @@
+Algoritmo "dardo"
+
+Var
+  dist, dista, distan : real
+
+
+Inicio
+     escreval("digite a primeira distancia:")
+     leia(dist)
+     escreval("digite a segunda distancia:")
+     leia(dista)
+     escreval("digite a terceira distancia:")
+     leia(distan)
+
+     se (dist > dista) e (dist > distan) entao
+        escreval("a maior distancia é de: ", dist)
+     senao
+          se (dista > dist) e (dista > distan) entao
+             escreval("a maior distancia é de: ", dista)
+          senao
+               escreval("a maior distancia é de: ", distan)
+               fimse
+          fimse
+
+Fimalgoritmo

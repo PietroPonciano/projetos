@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+
+
+
+Var
+
+  x, y, z : real
+
+Inicio
+      escreval("escreva o primeiro numero:")
+      leia(x)
+      escreval("escreva o segundo numero:")
+      leia(y)
+      escreval("escreva o terceiro numero:")
+      leia(z)
+      se (x < y) e (x < z) entao
+         escreval("o menor numero é o primeiro")
+      senao
+         se (y < x) e (y < z) entao
+            escreval("o segundo numero é o menor")
+         senao
+              ("o terceiro numero é o menor")
+              fimse
+      fimse
+
+
+Fimalgoritmo

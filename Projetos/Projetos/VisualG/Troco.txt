@@ -1,0 +1,18 @@
+Algoritmo "Troco"
+
+Var
+
+   preco, quantidade, recebido, troco : real
+
+
+
+Inicio
+      escreval("Digite o valor unintario do produto:")
+      leia(preco)
+      escreval("Digite a quantidade comprada:")
+      leia(quantidade)
+      escreval("Com quanto irá pagar?")
+      leia(recebido)
+      troco <- recebido - (preco*quantidade)
+      escreval("Seu troco será de: ", troco)
+Fimalgoritmo

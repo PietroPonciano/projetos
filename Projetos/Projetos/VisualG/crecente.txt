@@ -1,0 +1,31 @@
+Algoritmo "semnome"
+
+Var
+
+   x, y : real
+
+Inicio
+
+      escreval("digite um numero:")
+      leia(x)
+      escreval("digite outro numero:")
+      leia(y)
+      
+      enquanto x > y faca
+               escreval("decrescente")
+               escreval("digite outro numero:")
+               leia(x)
+               escreval("digite outro numero:")
+               leia(y)
+               fimenquanto
+      enquanto x < y faca
+               escreval("crescente")
+               escreval("digite outro numero:")
+               leia(x)
+               escreval("digite outro numero:")
+               leia(y)
+               fimenquanto
+      
+
+
+Fimalgoritmo

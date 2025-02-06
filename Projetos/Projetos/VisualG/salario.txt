@@ -1,0 +1,39 @@
+Algoritmo "salario"
+
+Var
+
+   salario, novo, aumento, porcentagem, salario1 : real
+
+
+Inicio
+      escreval("Digite o seu salario:")
+      leia(salario)
+
+      
+      se (salario <= 1000) entao
+         novo <- salario * 20/100
+         salario1 <- salario + novo
+         escreval("seu novo salario sera: ", salario1)
+      senao
+           se (salario > 1000) e (salario < 3000) entao
+             novo <- salario * 15/100
+             salario1 <- salario + novo
+             escreval("seu novo salario sera: ", salario1)
+            senao
+                 se (salario > 3000) e (salario < 8000) entao
+                    novo <- salario * 10/100
+                    salario1 <- salario + novo
+                    escreval("seu novo salario sera: ", salario1)
+                 senao
+                      (salario > 8000)
+                      novo <- salario * 5/100
+                      salario1 <- salario + novo
+                      escreval("seu novo salario sera: ", salario1)
+                      fimse
+                 fimse
+           fimse
+
+      
+
+
+Fimalgoritmo

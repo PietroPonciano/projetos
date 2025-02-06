@@ -1,0 +1,23 @@
+Algoritmo "baskara"
+
+Var
+    x, y, z : real
+
+
+Inicio
+           escreval("Digite a quantidade de minutos:")
+           leia(x)
+
+           se (x <= 100) entao
+              escreval("Valor a pagar: R$ 50.00")
+              senao
+              se (x > 100) entao
+                 y <- x - 100
+                 z <- 50 + (y * 2)
+                 escreval("Valor a pagar:R$ ", z:6:2)
+              fimse
+           fimse
+
+
+
+Fimalgoritmo
